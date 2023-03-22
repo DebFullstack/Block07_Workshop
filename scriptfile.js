@@ -5,5 +5,7 @@
 const comb1 = 1 * 10; //expected 10
 const comb2 = 80 / 2; //expected 40
 const comb3 = 40 - 1; //expected 39
+
+//User will see a dialog box before the page loads that reads the text inside the quotes
 alert("You have recieved this message because you have been chosen to open an important vault. Here is the secret combination: " + comb1 + "-" + comb2 + "-" + comb3)
 
